@@ -1,0 +1,190 @@
+.bod{
+   background: url(1.jpeg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+  display: block;
+   
+}
+.body{
+   border: 3px solid;
+   border-color: green;
+   box-shadow: inset;
+   padding: none;
+   height: 300px;
+  
+}
+h5{
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   letter-spacing: normal;
+}
+p{
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+   font-weight: bold;
+   position: relative;
+   top: -60px;
+}
+.form{
+    width: 500px;
+    height: 550px;
+    background: linear-gradient(to top, rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);
+    position: absolute;
+    left: 400px;
+    bottom: -300px;
+    border-radius: 10px;
+    padding: none;
+    text-align: center;
+    border: 3px solid;border-bottom: 20px;
+    margin-top: 1px;
+
+}
+.form2{
+   width: 500px;
+   height: 550px;
+   background-color: white;
+   position: absolute;
+   left:1000px;
+   bottom: -300px;
+   border-radius: 10px;
+   padding: none;
+   text-align: center;
+   border: 3px solid;border-bottom: 20px;
+   margin-top: 1px;
+   background: linear-gradient(to top, rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);;
+
+}
+ h1{
+   text-align: center;
+   text-underline-position: below;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color: orange;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+
+   margin: 2px;
+   padding: 8px;
+   text-shadow: #fff;
+   text-decoration: underline;
+}
+h2{
+   text-align: center;
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color: orangered;
+   text-decoration: dotted;
+   text-decoration-line: underline;
+}
+.form input{
+   width: 240;
+   height: 35px;
+   background: transparent;
+   border-bottom: 1px solid orange;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   font-family: sans-serif;
+   text-decoration-color: black;
+
+
+}
+.form2 input{
+   width: 240;
+   height: 35px;
+   background: transparent;
+   border-bottom: 1px solid orange;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   font-family: sans-serif;
+   text-decoration-color: black;
+
+
+}
+.form input:focus{
+   outline: none;
+}
+.pic{
+   width: 230px;
+   height: 200px;
+   border: 5px solid;
+   border-color: purple;
+   position: relative;
+   left: 1400px;
+   top: -1000px;
+   display: flex;
+}
+.pas{
+   font-size: 30px;
+   font-family: 'Times New Roman';
+   font-weight: bold;
+   color: maroon;
+   position: relative;
+   top: -80px;
+   text-align: center;
+
+  
+}
+.upload{
+   position: relative;
+   bottom: -130px;
+}
+.upload:hover{
+   color: blue;
+ 
+}
+.btn{
+   width: 240px;
+   height: 40px;
+   background:orange;
+   border: none;
+   margin-top: 18px;
+   border-radius: 10px;
+   cursor: pointer;
+   color: #fff;
+
+}
+.btn:hover{
+   background: #fff;
+   color: orange;
+   transition: 0.4 ease;
+}
+.btn{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+marquee{
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   font-style: italic;
+}
+::placeholder{
+   color: white;
+   font-family: Arial;
+   font-weight: bold;
+}
+img{
+   position: relative;
+   top: -120px;
+   border-radius: 15%;
+   background: linear-gradient(to top, rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);
+}
